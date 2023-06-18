@@ -30,6 +30,21 @@ console.log(u, n)
 
 // delete 
 
-let t = [90, 98, 78, 59, 3]
-let w = n.concat(t)
-console.log(t)
+// let num = [ 1, 2, 3 , 4, 5, 7, 8 ]
+// let num_more = [ 11, 21, 31 , 41, 51, 71, 81 ]
+// console.log(num.length)
+// delete num[0] // remove index value from array
+// console.log(num.length)
+
+
+// concat
+
+// let newArray = num.concat(num_more)
+// console.log(newArray)
+// console.log(num, num_more)
+
+
+// sort method 
+let num = [ 11, 322, 3 , 54, 59, 7, 81 ] // origin array change
+num.sort()
+console.log(num)
